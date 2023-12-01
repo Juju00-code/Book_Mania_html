@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+/* #F5F5DC */
+
+body{
+    border: 2px solid green;
+    background: #f7e7ce ;
+    height:100vh;
+    overflow: hidden;
+    font-family: poppins;
+}
+
+.center{
+    /* border:2px solid red; */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 700px; 
+    
+}
+
+.center h1{
+    align-items: center;
+    text-align: center;
+    color: #29465b;
+    /* font styling */
+}
+
+input{
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 0 40px;
+    border: 3px solid #29465b;
+    background:#f7e7ce ;
+    
+}
+
+input::placeholder{
+    font-size: 20px;
+    color:#29465b;
+}
+
+
+
+.first_input_field{
+    display: flex;
+    gap:140px;
+    margin-bottom: 40px;
+
+}
+
+/* .first_input_field input{
+    width: 350px;
+} */
+
+
+.second_input_field{
+    display: grid;
+    gap:40px;
+    width: 100%;
+    margin-top: 3px ;
+    
+}
+
+/* #Email{
+    display: inline-block;
+    border:2px solid blue;
+    margin-top: 10px;
+} */
+
+#sfirstName{
+    position: absolute;
+    top:150px;
+    transform: translate(30%,40%);
+    font-size: 12px;
+}
+
+#slastname{
+    position: absolute;
+    top:150px;
+    right:150px;
+    transform: translate(10%,40%);
+    font-size: 12px;
+    
+}
+
+.second_input_field span{
+    position: absolute;
+    top:260px;
+    left:30px;
+    font-size:12px;
+    transform: translateY(10%);
+
+
+}
+                
+
+button{
+    height:60px;
+    font-weight: bold;
+    border-radius:30px;
+    background: orangered;
+    font-size: 30px;
+    color: aliceblue;
+    border: none;
+}
+.haveAnAccount{
+   text-align: center;
+   border-top: 1px solid #29465b ;
+   padding-top: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+
