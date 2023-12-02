@@ -3,15 +3,19 @@
 /* #F5F5DC */
 
 body{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background: #f7e7ce ;
     height:100vh;
     overflow: hidden;
     font-family: poppins;
 }
 
-.center{
+form{
     /* border:2px solid red; */
+}
+
+.center{
+    /* border:2px solid green; */
     position:absolute;
     top:50%;
     left:50%;
