@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+
+body{
+    border: 2px solid green;
+    margin: 0;
+    height: 100vh;
+    font-family: Poppins;
+    box-sizing: border-box;
+    /* background-image: url(../assets/bookMania-Interest-Based-Selection-Background.png); */
+}
+
+.overlay{
+    border: 2px solid red;
+    height:100vh;
+    /* background-color:black;  */
+    opacity: 0.6;
+    background-image: url(../assets/bookMania-Interest-Based-Selection-Background.png);
+    z-index: -1;
+}
+
+h4{
+    /* border:2px solid orangered; */
+    height:30px;
+    text-align: center;
+}
+
+  
+
+.centered{
+    /* border:2px solid blue; */
+    position: absolute;
+    display:grid;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:  #f7e7ce;
+    width: 50%;
+    height: 50%;
+    z-index: 3;
+    border-radius:20px ;
+    /*  */
+
+}
+
+.category{
+    /* border:2px solid gold; */
+    display: grid;
+    position: relative;
+    top:70%;
+    transform: translateY(-80%);
+    grid-template-columns: repeat(5, 1fr);
+    /* border: 2px solid black; */
+    gap: 10px;
+    padding-left: 10px;
+    /* height: 300px */
+}
+
+
+
+.select_options{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width:120px;
+    height: 80px;
+    /* text-align: center; */
+    padding-top:4px;
+    
+    border-radius: 20px;
+}
+
+form{
+    /* border:2px solid blue; */
+    position:relative;
+    /* display:grid; */
+    top:30%;
+    transform:translateY(-50%);
+    
+}
+
+.btn{
+    position:absolute;
+    /* border: 2px solid gold; */
+    top:70%;
+    left:70%;
+    transform:translate(30%,150%);
+}
+
+.btn_try{
+    height: 40px;
+    width:80px;
+    border-radius:20px;
+}
+
+#submit{
+    background: orangered;
+    border: none;
+    color:white;
+}
+
+#skip{
+    border: 2px solid orangered;
+    background: transparent;
+    color: orangered;
+}
+
+.tickbox{
+    position: absolute;
+    top: 5%;
+    left:80%;
+
+}
