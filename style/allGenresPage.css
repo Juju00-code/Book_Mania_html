@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+
+body{
+    /* border: 2px solid green; */
+    height: 100vh;
+    overflow: scroll;
+    background: #f7e7ce;
+    font-family: Poppins;
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+.header{
+    /* border: 2px solid brown; */
+}
+nav{
+    border: 2px solid red;
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    margin-left: 120px;
+    width: 80%;
+    top:15%;
+
+
+}
+
+.nav_links{
+    /* border:2px solid white; */
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    border-bottom: 2px solid grey;
+}
+
+.content{
+    border:2px solid blue;
+    position:absolute;
+    display: grid;
+    top:40%;
+    transform: translateY(-5%);
+    width: 90%;
+    padding-bottom: 10px;
+    gap:30px;
+    margin-left: 70px;
+    /* justify-content: center; */
+}
+
+.container{
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    gap: 140px;
+    margin-left: 60px ;
+    background-color: #FFA162; 
+    
+
+
+}
+
+.image_container{
+    border: 2px solid black;
+    width: 10%;
+    height: 90px;
+    background-image: url(../assets/harrP.png);
+    background-size: cover;
+    opacity: 0.4;
+    /* background-position: center; */
+
+}
+
+.filter{
+    border: 2px solid wheat;
+    position: absolute;
+    width: 10%;
+    top:20%; 
+    left: 80%;
+    transform: translateY(100%);
+    margin-top: 20px;
+    text-align: center;
+
+    /* transform: translateX(10%); */
+
+}
+
+.best_seller{
+    font-size: 16px;
+    font-style: italic;
+    /* border: 2px solid brown; */
+}
+
+.checkmark{
+    font-size: 1.8rem;
+}
+
+.fave{
+    font-size: 1.2rem;
+}
+
+.view_books{
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    width:12%;
+    padding:8px;
+    background: orangered;
+    text-decoration: none;
+    color: white;
+}
+
+ .genre_name{
+    position:absolute;
+    display: inline-block;
+    border:1px solid black;
+    width: 9%;
+    text-align: center;
+    color: white;
+    background: black;
+} 
+.input_search_form{
+    /* border: 2px solid black; */
+    position: absolute;
+    top:20%;
+    left: 5%;
+    transform: translateY(130%);
+    width: 30%;
+    height: 5%;
+
+}
+
+.input_search{
+    display: inline-block;
+    width:70%;
+    height: 70%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    border: none;
+    outline:none ;
+}
+.submit_btn{
+    height: 78%;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius:20px;
+    border: none;
+    outline:none ;
+}
+
+.search_container{
+    /* border: 2px solid blue; */
+    display:flex ;
+    height: 100%;
+}
+
+
+
+.dropdown_menu{
+    border:2px solid wheat;
+    position: absolute;
+    top:30%;
+    left:60%;
+    transform: translateX(304px);
+    background: wheat;
+    width: 10%;
+    z-index: 1;
+}
+
+.dropdown_menu ul{
+   list-style: none;
+   
+   
+   
+
+   
+}
+
+.dropdown_menu ul li{
+    border-bottom:1px solid brown;
+    position: relative;
+    right:18%
+}
+
+ .dropdown_menu ul li a{
+    text-decoration: none;
+    color:brown;
+}
+
+
