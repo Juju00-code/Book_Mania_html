@@ -16,15 +16,13 @@ body{
     /* border: 2px solid brown; */
 }
 nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position:absolute;
     display:flex;
     justify-content: center;
     margin-left: 120px;
     width: 80%;
     top:15%;
-
-
 }
 
 .nav_links{
@@ -36,7 +34,7 @@ nav{
 }
 
 .content{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     position:absolute;
     display: grid;
     top:40%;
@@ -169,12 +167,7 @@ nav{
 }
 
 .dropdown_menu ul{
-   list-style: none;
-   
-   
-   
-
-   
+   list-style: none;  
 }
 
 .dropdown_menu ul li{
